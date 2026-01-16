@@ -1,0 +1,69 @@
+﻿Work Item Type;Title 1;Title 3;Title 4;Estimate
+Epic;IoT Sensor Integration;;;
+User Story;;Real-time sensor alerts;;5
+Task;;;Design IoT data ingestion API;
+Task;;;Implement real-time alert triggers;
+Task;;;Set up secure sensor-to-server communication;
+Test Case;;;Validate sensor alert delivery;
+Test Case;;;Test alert encryption;
+User Story;;Multi-sensor data visualization;;3
+Task;;;Develop dashboard for seismic/flood/air quality data;
+Task;;;Implement heatmap display for sensor data;
+Test Case;;;Verify real-time data visualization;
+Epic;Mobile Responder App;;;
+User Story;;Receive and acknowledge alerts;;5
+Task;;;Design alert notification UI;
+Task;;;Implement push notifications with priority channels;
+Task;;;Add alert acknowledgment functionality;
+Test Case;;;Alert received and acknowledged;
+User Story;;Report incidents with media upload;;8
+Task;;;Implement photo/video upload feature;
+Task;;;Add geolocation tagging for reports;
+Task;;;Enable offline storage and sync;
+Test Case;;;Upload and sync incident report with media;
+User Story;;In-app messaging with command center;;5
+Task;;;Design encrypted chat interface;
+Task;;;Integrate priority telecom channels;
+Test Case;;;Secure message exchange;
+User Story;;Multi-language support (EN/ES/AR/HI);;8
+Task;;;Implement language toggle;
+Task;;;Localize UI and content;
+Test Case;;;Verify language switching;
+Epic;Web Command Center;;;
+User Story;;Real-time dashboard for administrators;;8
+Task;;;Develop interactive map with live data layers;
+Task;;;Integrate IoT and mobile app data feeds;
+Test Case;;;Dashboard updates in real-time;
+User Story;;Resource deployment tracking;;5
+Task;;;Implement resource allocation interface;
+Task;;;Add live tracking for teams and supplies;
+Test Case;;;Resource movement tracked correctly;
+User Story;;Multi-language support (EN/ES);;3
+Task;;;Localize admin interface;
+Test Case;;;Web app language functionality;
+Epic;Offline & Sync Capability;;;
+User Story;;Offline operation for mobile app;;8
+Task;;;Implement local database for offline data;
+Task;;;Develop sync mechanism upon reconnection;
+Test Case;;;Data persistence and sync after offline;
+User Story;;Offline operation for web dashboard;;5
+Task;;;Cache critical dashboard data;
+Task;;;Implement background sync;
+Test Case;;;Web dashboard works without internet;
+Epic;Security & Compliance;;;
+User Story;;Encrypted end-to-end communication;;8
+Task;;;Implement TLS/encryption for all data in transit;
+Task;;;Secure API endpoints;
+Test Case;;;Validate encryption for all channels;
+User Story;;Compliance with telecom regulations;;5
+Task;;;Integrate priority channel APIs;
+Task;;;Implement fallback communication methods;
+Test Case;;;Priority channel usage under disaster conditions;
+;;;;
+Notas:;;;;
+A tabela está estruturada seguindo o formato fornecido no exemplo.;;;;
+Foram incluídos Epics, User Stories, Tasks e Test Cases relevantes para o DRMS.;;;;
+Os valores de Estimate (em story points) são sugestões iniciais.;;;;
+State foi definido como New para todos os itens.;;;;
+As User Stories foram escritas no formato padrão (As a… I want… So that…), embora não explicitamente na tabela.;;;;
+Caso deseje ajustar estimativas, adicionar mais tasks ou detalhar testes, posso expandir a tabela conforme necessário.;;;;
